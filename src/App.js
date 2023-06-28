@@ -59,7 +59,7 @@ class App extends React.Component {
               this.state.data.map((item, index) => (
                 <div key={item.id} className="col-12 col-sm-12 col-md-4 col-lg-4 pb-2 pt-2">
                   <div className="card" style={{ width: "18rem" }}>
-                    <img src="https://github.com/vigneshacodes/shoptocart/blob/main/cartimg.jpg?raw=true" className="card-img-top" alt="cartItem" />
+                    <img src="https://github.com/vigneshacodes/shoptocart/blob/master/cartimg.jpg?raw=true" className="card-img-top" alt="cartItem" />
                     <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>
                       <p className="card-text">$ {item.price}</p>
